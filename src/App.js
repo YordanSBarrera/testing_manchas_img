@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import i1 from "./img/i1.png";
+import Formulario from "./Formulario";
+import CardZone from "./CardZone";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      MIerdaaaa
+      <CardZone />
+      <img src={i1} alt="mancha1" height="200" width="200" />
+      <hr />
+      <br />
+      <Formulario />
     </div>
   );
-}
+};
 
 export default App;
