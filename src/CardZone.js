@@ -3,10 +3,10 @@ import Card from "./Card";
 import i1 from "./img/i1.png";
 import i2 from "./img/i2.png";
 import i3 from "./img/i3.png";
-import i4 from "./img/i4.png";
-import i5 from "./img/i5.png";
-import i6 from "./img/i6.png";
-import i7 from "./img/i7.png";
+// import i4 from "./img/i4.png";
+// import i5 from "./img/i5.png";
+// import i6 from "./img/i6.png";
+// import i7 from "./img/i7.png";
 import i8 from "./img/i8.png";
 
 const CardZone = () => {
