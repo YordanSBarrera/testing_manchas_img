@@ -1,20 +1,30 @@
 import i1 from "./img/i1.png";
 import Formulario from "./Formulario";
 import CardZone from "./CardZone";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
     <div className="container">
       <header>
-        <h1>Encabezado</h1>
-        <br/>
+        <h1>
+          Encabezado<div className="huevo">Huevo</div>
+        </h1>
+        <br />
         <div className="zonaTest">
-          1
-          <div className="figura1"></div>
-          <div className="figura2"></div>
-          <div className="figura3"></div>
-          <div className="figura4"></div>
+        
+          <div className="up left">
+            <div className="figura1"></div>
+          </div>
+          <div className="up right">
+            <div className="figura2"></div>
+          </div>
+          <div className="down left">
+            <div className="figura3"></div>
+          </div>
+          <div className="down right">
+            <div className="figura4"></div>
+          </div>
         </div>
       </header>
       <section>
